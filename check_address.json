@@ -1,0 +1,31 @@
+[
+  {
+    "address": "TQWwkBAmbaTQSd5ricezdvjEmHDfW52hd6",
+    "action": [
+      "发送提示"
+    ],
+    "check": {
+      "energy": 100000,
+      "bandwidth": 2000
+    },
+    "recharge": {
+      "energy": 0,
+      "bandwidth": 0
+    }
+  },
+  {
+    "address": "TBdvuSzSuFJaZPQaxyAuZ6BUxbfkcUX9rU",
+    "action": [
+      "发送提示",
+      "自动充值"
+    ],
+    "check": {
+      "energy": 32000,
+      "bandwidth": 700
+    },
+    "recharge": {
+      "energy": 32000,
+      "bandwidth": 0
+    }
+  }
+]
