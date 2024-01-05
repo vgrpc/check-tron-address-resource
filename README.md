@@ -2,6 +2,12 @@
 
 > 使用计划任务定时执行
 
+> 使用前请先安装依赖包(在目录下面执行)
+
+```shell
+pip3 install requests -i http://mirrors.aliyun.com/pypi/simple --trusted-host mirrors.aliyun.com
+```
+
 ## 使用宝塔的定时任务运行
 
 选择`Shell`脚本，执行周期可以自己选择
@@ -16,10 +22,6 @@ cd /root/check-tron-address-resource
 ```
 
 `/root/check-tron-address-resource` 更换为你自己存放文件的目录路径
-
-```shell
-pip3 install requests -i http://mirrors.aliyun.com/pypi/simple --trusted-host mirrors.aliyun.com
-```
 
 ## 其他定时任务
 
